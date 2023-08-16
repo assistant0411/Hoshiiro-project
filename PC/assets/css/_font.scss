@@ -1,0 +1,12 @@
+$font-hiragino: "Hiragino Sans", "ヒラギノ角ゴ", sans-serif ;
+$font-kozu-normal:  "KozGoPr6NRegular";
+$font-kozu-bold: "KozGoPr6N-Bold";
+@font-face {
+    font-family: "KozGoPr6NRegular";
+    src: url(../fonts/KozGoPr6NRegular.otf);
+}
+
+@font-face {
+    font-family: "KozGoPr6N-Bold";
+    src: url(../fonts/KozGoPr6N-Bold.otf);
+}
