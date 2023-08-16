@@ -1,0 +1,29 @@
+// media group
+@mixin media-is-pc {
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin media-pc {
+    @media screen and (max-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin media-content {
+    @media screen and (max-width: 1140px) {
+        @content;
+    }
+}
+
+.l-container {
+    width: 100%;
+    max-width: 752rem;
+    margin-inline: auto;
+}
+
+.l-content {
+    width: 100%;
+    padding-inline: 50rem;
+}

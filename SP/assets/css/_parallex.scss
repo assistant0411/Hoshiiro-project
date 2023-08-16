@@ -1,0 +1,18 @@
+.parallax-section {
+    overflow: hidden;
+    position: relative;
+    height: 664rem;
+}
+
+.parallax-section .parallax-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    //height: 120%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1;
+    background-position: top center;
+}

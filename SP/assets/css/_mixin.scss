@@ -1,0 +1,22 @@
+@use 'sass:math';
+
+$w: 1140;
+//$basePixel: 16;
+
+@function vw($px) {
+    @return math.div($px, $w) * 100vw ;
+}
+
+@mixin font($px){
+    @media screen and (min-width: 1140px) {
+        font-size: $px * 1px;
+    }
+    @media screen and (max-width: 1140px) {
+        font-size: math.div($px, $w) * 100vw;
+    }
+}
+
+// Convert from px to rem.
+// @function rem($px) {
+//     @return math.div($px, $basePixel) * 0.5 * 1rem;
+// }
