@@ -680,6 +680,9 @@
             &:first-child {
                 border-right: solid 1px white;
             }
+            &:last-child {
+                border-right: solid 1px yellow;
+            }
         }
     }
 }
